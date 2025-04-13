@@ -1,5 +1,10 @@
 export default function Home() {
   return (
+    <img
+  src="/hero.jpg"
+  alt="GenArch Hero Image"
+  style={{ width: '100%', borderRadius: '1rem', marginBottom: '2rem' }}
+/>
     <main style={{ fontFamily: 'Arial, sans-serif', padding: '2rem', maxWidth: '900px', margin: 'auto' }}>
       <header style={{ textAlign: 'center', marginBottom: '3rem' }}>
         <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>GenArch – Generational Architecture</h1>
