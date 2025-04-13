@@ -1,27 +1,38 @@
 export default function Home() {
   return (
-    <main style={{ padding: 20, fontFamily: 'Arial, sans-serif' }}>
-      <h1>Building the Future with Legacy</h1>
-      <p>
-        GenArch is an architecture and construction company where senior expertise meets graduate innovation.
-      </p>
-      <h2>Our Services</h2>
-      <ul>
-        <li>Architectural Design</li>
-        <li>Construction Management</li>
-        <li>Mentorship Projects</li>
-        <li>Heritage & Accessibility Consulting</li>
-      </ul>
-      <h2>Meet the Team</h2>
-      <p>We bring together experienced professionals and fresh graduates to shape resilient, inclusive buildings.</p>
-      <h2>Case Studies</h2>
-      <p>Heritage School Restoration, Brisbane - blending tradition and innovation in one build.</p>
-      <h2>Testimonials</h2>
-      <blockquote>
-        “A perfect mix of craftsmanship and innovation.” – Sarah R.
-      </blockquote>
-      <h2>Contact</h2>
-      <p>Email us at contact@genarch.com</p>
+    <main style={{ fontFamily: 'Arial, sans-serif', padding: '2rem', maxWidth: '900px', margin: 'auto' }}>
+      <header style={{ textAlign: 'center', marginBottom: '3rem' }}>
+        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>GenArch – Generational Architecture</h1>
+        <p style={{ fontSize: '1.2rem', color: '#444' }}>
+          Where senior expertise meets graduate innovation in architecture and construction.
+        </p>
+      </header>
+
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>Our Mission</h2>
+        <p>
+          At GenArch, we’re redefining the built environment by fusing the wisdom of senior professionals with the creativity and energy of new graduates. We believe in designing and building for the future, while honouring the past.
+        </p>
+      </section>
+
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>Our Core Values</h2>
+        <ul>
+          <li>Intergenerational Collaboration</li>
+          <li>Experience-Led Innovation</li>
+          <li>Inclusive & Accessible Design</li>
+          <li>Heritage & Community-Focused Building</li>
+        </ul>
+      </section>
+
+      <section style={{ marginBottom: '2rem' }}>
+        <h2>Explore</h2>
+        <ul>
+          <li><strong>🧰 Services</strong> – From heritage restoration to mentorship-driven delivery</li>
+          <li><strong>🧑‍🤝‍🧑 Team</strong> – Meet our senior builders and rising stars</li>
+          <li><strong>📬 Contact</strong> – Reach out to collaborate or join us</li>
+        </ul>
+      </section>
     </main>
   );
 }
