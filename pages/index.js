@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-gray-900 p-8 space-y-16 max-w-6xl mx-auto">
@@ -16,7 +15,6 @@ export default function HomePage() {
         </div>
         <img src="/genarch-hero-clean.jpg" alt="Hero" className="rounded-2xl shadow-lg w-full md:w-1/2" />
       </section>
-
       {/* About Section */}
       <section className="space-y-4">
         <h2 className="text-3xl font-semibold">Who We Are</h2>
@@ -24,7 +22,6 @@ export default function HomePage() {
           GenArch is an intergenerational architecture and construction company driven by the idea that wisdom and creativity are strongest when shared. Our model pairs industry veterans with recent graduates to deliver timeless, forward-thinking spaces.
         </p>
       </section>
-
       {/* Services Section */}
       <section className="space-y-8">
         <h2 className="text-3xl font-semibold">What We Do</h2>
@@ -47,7 +44,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Team Section */}
       <section className="space-y-4">
         <h2 className="text-3xl font-semibold">Meet the Team</h2>
@@ -69,7 +65,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* Contact CTA */}
       <section className="bg-black text-white p-8 rounded-xl text-center space-y-4">
         <h2 className="text-3xl font-bold">Let’s Build the Future Together</h2>
